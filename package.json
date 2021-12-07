@@ -1,0 +1,21 @@
+{
+  "name": "clean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && jest dist/",
+    "tsc:init": "tsc --init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
